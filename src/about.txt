@@ -1,0 +1,4 @@
+CLIENT & SERVER components
+
+SERVER RENDER COMPONENTS -> They upload by server because If Users sign in website server rendered components has showed before upload
+CLIENT RENDER COMPONENTS -> They upload by client

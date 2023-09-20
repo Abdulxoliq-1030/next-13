@@ -15,6 +15,5 @@ export default function AboutLayout({
             {children}
             <p>End About</p>
         </section>
-
     )
 }
