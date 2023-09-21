@@ -1,3 +1,4 @@
+import Posts from "@/components/posts";
 import { PostType } from "@/interface";
 import axios from "axios";
 import Link from "next/link";
@@ -17,15 +18,7 @@ const Page: React.FC<PageProps> = async () => {
         notFound();
     }
 
-    return (
-        <>
-            {data.map(c => (
-                <div key={c.id}>
-                    <Link href={`/posts/${c.id}`}>{c.title}</Link>
-                </div>
-            ))}
-        </>
-    )
+    return <Posts data={data} />
 }
 
 export default Page;
