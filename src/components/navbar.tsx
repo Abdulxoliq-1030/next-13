@@ -11,6 +11,7 @@ const Navbar: React.FC<NavbarProps> = () => {
             <button onClick={() => router.push("/")}>Home Page</button>
             <button onClick={() => router.push("/about")}>About Page</button>
             <button onClick={() => router.push("/contact")}>Contact Page</button>
+            <button onClick={() => router.push("/posts")}>Post</button>
         </div>
     )
 }
